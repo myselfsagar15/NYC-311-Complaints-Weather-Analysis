@@ -123,7 +123,8 @@ This document explains all the Flask routes exposed by the NYC 311 Complaints & 
 - **Description**: Returns complaint counts grouped by hour and borough.  
 - **Query Param**: `key` – API key (required)  
 - **Sample Link**: [http://127.0.0.1:5000/getHourlyComplaints?key=123](http://127.0.0.1:5000/getHourlyComplaints?key=123)
-1.jpg
+![Image 1](https://raw.githubusercontent.com/myselfsagar15/<your-repo-name>/main/1.jpg)
+
 ---
 
 ## `/graph`
