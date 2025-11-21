@@ -143,6 +143,7 @@ This document explains all the Flask routes exposed by the NYC 311 Complaints & 
 - **Type**: HTML (Form)  
 - **Description**: User input for selecting hour to visualize complaints.  
 - **Sample Link**: [http://127.0.0.1:5000/hourlyInput](http://127.0.0.1:5000/hourlyInput)
+![3 1](https://github.com/user-attachments/assets/b11ff36f-d981-46c9-b778-43bd02195baf)
 
 ---
 
@@ -151,6 +152,7 @@ This document explains all the Flask routes exposed by the NYC 311 Complaints & 
 - **Description**: Bar chart of complaints per borough at a given hour.  
 - **Query Param**: `hour` (0–23)  
 - **Sample Link**: [http://127.0.0.1:5000/hourlyData?hour=09](http://127.0.0.1:5000/hourlyData?hour=09)
+![3 2](https://github.com/user-attachments/assets/26f56ba0-0e8d-4874-893b-8027e1d29666)
 
 ---
 
@@ -158,6 +160,7 @@ This document explains all the Flask routes exposed by the NYC 311 Complaints & 
 - **Type**: HTML (Form)  
 - **Description**: Form to select start and end dates for borough complaints.  
 - **Sample Link**: [http://127.0.0.1:5000/dateRangeInput](http://127.0.0.1:5000/dateRangeInput)
+![5_1](https://github.com/user-attachments/assets/85faaf9e-a164-4ed6-ba42-2de717d59753)
 
 ---
 
@@ -182,6 +185,7 @@ This document explains all the Flask routes exposed by the NYC 311 Complaints & 
 - **Description**: Complaints over date and hour range, wraps around midnight if needed.  
 - **Query Params**: `start`, `end`, `start_hr`, `end_hr`, `key`  
 - **Sample Link**: [http://127.0.0.1:5000/dateHourData?start=2015-03-01&end=2015-03-01&start_hr=5&end_hr=3&key=123](http://127.0.0.1:5000/dateHourData?start=2015-03-01&end=2015-03-01&start_hr=5&end_hr=3&key=123)
+![6](https://github.com/user-attachments/assets/0b996f18-25d5-4e2b-91a2-d78af71b579f)
 
 ---
 
