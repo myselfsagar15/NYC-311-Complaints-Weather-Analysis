@@ -124,7 +124,8 @@ This document explains all the Flask routes exposed by the NYC 311 Complaints & 
 - **Query Param**: `key` – API key (required)  
 - **Sample Link**: [http://127.0.0.1:5000/getHourlyComplaints?key=123](http://127.0.0.1:5000/getHourlyComplaints?key=123)
 
-![Image 1](https://raw.githubusercontent.com/myselfsagar15/<repo-name>/main/1.jpg)
+![Image_1](/mnt/data/2f1e014f-aa31-4990-87b9-a5843faca138.png)
+
 
 
 ---
