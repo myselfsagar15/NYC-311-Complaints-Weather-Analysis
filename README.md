@@ -172,6 +172,7 @@ This document explains all the Flask routes exposed by the NYC 311 Complaints & 
 - **Type**: HTML (Form)  
 - **Description**: Form to input both date and hour ranges.  
 - **Sample Link**: [http://127.0.0.1:5000/dateHourInput](http://127.0.0.1:5000/dateHourInput)
+![2](https://github.com/user-attachments/assets/e1d5a699-08e0-4d06-819c-62306a039d52)
 
 ---
 
