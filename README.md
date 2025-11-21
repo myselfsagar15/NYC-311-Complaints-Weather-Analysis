@@ -135,6 +135,7 @@ This document explains all the Flask routes exposed by the NYC 311 Complaints & 
 - **Type**: HTML (Graph)  
 - **Description**: Bar chart showing hourly complaints for all boroughs.  
 - **Sample Link**: [http://127.0.0.1:5000/graph](http://127.0.0.1:5000/graph)
+![2](https://github.com/user-attachments/assets/add9053d-9115-4a39-b6c1-58e4093c24c5)
 
 ---
 
