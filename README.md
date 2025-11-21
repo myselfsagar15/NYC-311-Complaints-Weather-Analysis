@@ -160,7 +160,7 @@ This document explains all the Flask routes exposed by the NYC 311 Complaints & 
 - **Type**: HTML (Form)  
 - **Description**: Form to select start and end dates for borough complaints.  
 - **Sample Link**: [http://127.0.0.1:5000/dateRangeInput](http://127.0.0.1:5000/dateRangeInput)
-![5_1](https://github.com/user-attachments/assets/85faaf9e-a164-4ed6-ba42-2de717d59753)
+
 
 ---
 
@@ -169,6 +169,7 @@ This document explains all the Flask routes exposed by the NYC 311 Complaints & 
 - **Description**: Graph of total complaints per borough in selected date range.  
 - **Query Params**: `key`, `start`, `end`  
 - **Sample Link**: [http://127.0.0.1:5000/dateRangeData?key=123&start=2015-06-01&end=2015-06-30](http://127.0.0.1:5000/dateRangeData?key=123&start=2015-06-01&end=2015-06-30)
+![6](https://github.com/user-attachments/assets/08697981-2a72-47fd-9664-687cf59ec260)
 
 ---
 
@@ -176,7 +177,7 @@ This document explains all the Flask routes exposed by the NYC 311 Complaints & 
 - **Type**: HTML (Form)  
 - **Description**: Form to input both date and hour ranges.  
 - **Sample Link**: [http://127.0.0.1:5000/dateHourInput](http://127.0.0.1:5000/dateHourInput)
-![2](https://github.com/user-attachments/assets/e1d5a699-08e0-4d06-819c-62306a039d52)
+![7](https://github.com/user-attachments/assets/164d05e3-e07d-43f9-a633-bceb6cb944f6)
 
 ---
 
@@ -185,7 +186,8 @@ This document explains all the Flask routes exposed by the NYC 311 Complaints & 
 - **Description**: Complaints over date and hour range, wraps around midnight if needed.  
 - **Query Params**: `start`, `end`, `start_hr`, `end_hr`, `key`  
 - **Sample Link**: [http://127.0.0.1:5000/dateHourData?start=2015-03-01&end=2015-03-01&start_hr=5&end_hr=3&key=123](http://127.0.0.1:5000/dateHourData?start=2015-03-01&end=2015-03-01&start_hr=5&end_hr=3&key=123)
-![6](https://github.com/user-attachments/assets/9f85fe33-0860-4ea7-8be4-4422854aa19c)
+![8](https://github.com/user-attachments/assets/165f414a-a9bc-4c21-8b51-45f2320e61b6)
+
 
 
 ---
@@ -195,6 +197,7 @@ This document explains all the Flask routes exposed by the NYC 311 Complaints & 
 - **Description**: Top 3 complaint types per borough for a specific time bucket (night/morning/afternoon/evening).  
 - **Query Params**: `key`, `bucket`  
 - **Sample Link**: [http://127.0.0.1:5000/topComplaintsByTime?key=123&bucket=night](http://127.0.0.1:5000/topComplaintsByTime?key=123&bucket=night)
+![9](https://github.com/user-attachments/assets/10f5b210-5621-4bc9-b64d-e45501ebefde)
 
 ---
 
@@ -202,6 +205,7 @@ This document explains all the Flask routes exposed by the NYC 311 Complaints & 
 - **Type**: JSON  
 - **Description**: Complaint counts grouped by temperature bucket.  
 - **Sample Link**: [http://127.0.0.1:5000/complaintsByTempBucket?key=123](http://127.0.0.1:5000/complaintsByTempBucket?key=123)
+![10](https://github.com/user-attachments/assets/5970439d-b701-4cb6-8f80-a3f76a0e6005)
 
 ---
 
@@ -209,6 +213,7 @@ This document explains all the Flask routes exposed by the NYC 311 Complaints & 
 - **Type**: JSON  
 - **Description**: Top complaint types listed per temperature range bucket.  
 - **Sample Link**: [http://127.0.0.1:5000/topComplaintTypesByTemp?key=123](http://127.0.0.1:5000/topComplaintTypesByTemp?key=123)
+![11](https://github.com/user-attachments/assets/2fee8391-2d33-470b-a68f-92b7e81a3234)
 
 ---
 
@@ -216,6 +221,8 @@ This document explains all the Flask routes exposed by the NYC 311 Complaints & 
 - **Type**: JSON  
 - **Description**: Complaints per borough per temperature range.  
 - **Sample Link**: [http://127.0.0.1:5000/boroughComplaintsByTemp?key=123](http://127.0.0.1:5000/boroughComplaintsByTemp?key=123)
+![12](https://github.com/user-attachments/assets/b4bff38e-7b34-4736-aac1-e77d00ee174e)
+
 
 ---
 
